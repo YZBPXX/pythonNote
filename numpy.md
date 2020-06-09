@@ -3,8 +3,9 @@
 >scipy是建立在numpy矩阵基础上对齐进行操作的库
 ----
 解决线性规划问题(scipy.optimize(最优).linprog(线性规划))
-问题描述为
-$$\min_{x} c^tx \\
+问题描述为  
+$$
+\min_{x} c^tx \\
 s.t \begin{cases}
 A·x <=b \\
 Aeq·x=beq \\
